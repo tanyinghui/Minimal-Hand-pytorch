@@ -1,9 +1,10 @@
 # Minimal Hand Pytorch
 
 ## Steps
-1. Conda env create using ```environment.yml``` <br>
+0. Git clone this repo. 
+1. Conda env create using ```environment.yml``` and activate the environment. <br>
 2. ~~Run ```pip install open3d==0.9.0.0```~~
-3. Download ```mano``` from [source](https://github.com/hassony2/manopth.git).
+3. **```cd ..```** and download ```mano``` from [source](https://github.com/hassony2/manopth.git). (**caution! you should build ```mano``` outside of this directory!**)
 4. ```cd manopth``` 
 5. Replace ```manopth/rotproj.py``` with the ```Minimal-Hand-pytorch/manopth/rotproj.py```
 6. Inside ```manopth``` directory, run ```pip install .```
