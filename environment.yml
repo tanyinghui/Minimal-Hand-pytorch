@@ -1,4 +1,4 @@
-name: minimal-hand-torch
+name: MH-test
 channels:
   - pytorch
   - defaults
