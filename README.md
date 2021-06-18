@@ -1,5 +1,17 @@
 # Minimal Hand Pytorch
 
+## Steps
+1. Conda env create using ```environment.yml```
+-2. Run ```pip install open3d==0.9.0.0```-
+3. Download ```mano``` from [source](https://github.com/hassony2/manopth.git).
+4. ```cd manopth``` 
+5. Replace ```manopth/rotproj.py``` with the ```Minimal-Hand-pytorch/manopth/rotproj.py```
+6. Inside ```manopth``` directory, run ```pip install .```
+7. Download Mano hand model following the instructions below.
+8. Replace ```mano/webuser/*``` with this repo ```mano/webuser/*```
+9. Replace video clip file with your own video clip name or change to Webcam number.
+10. Follow the steps below to run the demo. (```demo.py```)
+
 **Unofficial** PyTorch reimplementation of [minimal-hand](https://calciferzh.github.io/files/zhou2020monocular.pdf) (CVPR2020). 
 
 ![demo](assets/demo.gif)

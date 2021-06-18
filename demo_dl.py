@@ -16,7 +16,7 @@ _mano_root = 'mano/models'
 
 module = detnet().to(device)
 print('load model start')
-check_point = torch.load('new_check_point/ckp_detnet_83.pth', map_location=device)
+check_point = torch.load('bmc_ckp.pth', map_location=device)
 model_state = module.state_dict()
 state = {}
 for k, v in check_point.items():

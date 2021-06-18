@@ -95,10 +95,9 @@ dependencies:
     - chumpy==0.70
     - coverage==4.5.3
     - einops==0.3.0
-    - manopth==0.0.1
     - mxnet==1.6.0
+    - open3d==0.9.0.0
     - progress==1.5
     - torch==1.2.0
     - transforms3d==0.3.1
-    - git+https://github.com/hassony2/manopth.git
 
